@@ -6,12 +6,14 @@
 	height:100%;
 }
 }
+/* botão de finalizar do produto */
 .modal-content .d-flex.flex-row{
 	position:sticky;
 	padding:10px;
 	background: white;
-	bottom:10px;
+	bottom:0px;
 	z-index:999;
+	box-shadow:0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
