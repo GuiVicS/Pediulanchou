@@ -91,3 +91,9 @@ textarea:focus {
   box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
   background-color: #fff;
 }
+
+/* tamanhp das opções */
+.opcaoProduto-Body > div {
+    /* Estilos aplicados apenas aos filhos diretos */
+    min-height:100vh;
+}
