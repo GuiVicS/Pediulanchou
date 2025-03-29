@@ -54,20 +54,6 @@
 	padding-left: 20px;
 }
 
-/* Botão de adicionar ao carrinho */
-.modal-content .btn.btn-block.bg-cor-primaria
-{
-    padding-block: 15px !important;
-}
-/*icone do Botão de adicionar ao carrinho */
-.modal-content .btn.btn-block.bg-cor-primaria::before{
-	content:'\2b';
-	font-weight: bold;
-	padding-inline:10px;
-	font-size:20px;
-	font-family:fontawesome;
-
-}
 
 /*mensagem de erro do popup produto
 .text-danger.text-center.opcaoProduto-Error{
