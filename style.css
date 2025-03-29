@@ -19,7 +19,14 @@
 .modal-content{
 	padding-inline:1px;
 }
-
+/* TITULO DA OPÇAO ADICIONAL */
+.modal-content .bg-gray.py-2.mt-2.mb-2{
+	position:sticky;
+	top:0px;
+	background:white;
+	box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index:10;
+}
 #modal-opcoes-produto{
 	padding-block: 0px;
 }
