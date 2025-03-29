@@ -3,7 +3,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
 /*popup comportamento*/
 @media(max-width:650px){
 .modal-content{
@@ -22,3 +21,6 @@
 	box-shadow:0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.modal-content .btn.btn-block.bg-cor-primaria{
+padding-block: 20px !important;
+}
