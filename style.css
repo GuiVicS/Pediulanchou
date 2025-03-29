@@ -34,7 +34,7 @@
 /* Observações */
 .modal-content .container.mt-3.mb-3{
 	position:sticky;
-	bottom:114px;
+	bottom:80px;
 	background:white;
 	box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
 	z-index:10;
