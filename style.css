@@ -97,3 +97,40 @@ textarea:focus {
     /* Estilos aplicados apenas aos filhos diretos */
     min-height:100vh;
 }
+
+
+/*PIZZARIA DO GAUCHO*/
+@media(max-width:600px){
+.fundo-inicio-aberto .d-flex {
+    position:absolute;
+    top:250px;
+    z-index:3;
+   
+}
+.fundo-inicio-aberto .d-flex img{
+    border-radius:50% !important;
+    margin-top:-50%;
+    border:9px solid #f4f5f7;
+}
+.fundo-inicio-aberto .d-flex button{
+    position:absolute;
+    border-radius:20px;
+    left:50px;
+    margin-top:-40px;
+    border:2px solid #f4f5f7;
+}
+.fundo-inicio-aberto .d-flex img{
+    border-radius:50%;
+    margin-top:-50%;
+}
+.fundo-inicio-aberto .d-flex h2,.fundo-inicio-aberto .d-flex p{
+     color:#000 !important;
+}
+.pr-1 {
+    margin-top:150px;
+}
+.fundo-inicio-aberto {
+    height:0px;
+    margin-bottom:-10px !important;
+}
+}
