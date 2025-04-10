@@ -1,6 +1,6 @@
 // botão de home
 document.addEventListener("DOMContentLoaded", function () {
-    const menuBottom = document.querySelector(".fixed-bottom");
+    const menuBottom = document.querySelector(".d-flex.bg-cor-primaria.d-flex.justify-content-center.fixed-bottom.text-light.py-2.d-block.d-sm-none.border-top");
 
     if (menuBottom) {
       const homeButton = document.createElement("div");
