@@ -237,7 +237,7 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
 }
 }
 /* BOTÃO DE CARRINHO EM DESTAQUE */
-@media(max-width:480px){
+@media(max-width:650px){
 	.bg-cor-primaria.d-flex.justify-content-center.cpointer.fixed-bottom.text-light.py-2.border-top{
 		display:none !important;
 	}
@@ -275,5 +275,5 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
 		text-align: center !important;
 		padding:0px !important;
 	}
-	
+
 	}
