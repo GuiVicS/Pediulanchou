@@ -241,6 +241,7 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
 	.bg-cor-primaria.d-flex.justify-content-center.cpointer.fixed-bottom.text-light.py-2.border-top{
 		display:none !important;
 	}
+	div[onclick="carregarCarrinho();"] .text-light{display:none !important;}
 	div[onclick="carregarCarrinho();"] p{
 		background:#f33829;
 		height:70px;
