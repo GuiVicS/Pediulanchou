@@ -38,7 +38,7 @@
 	box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
 	z-index:10;
 } */
-/* Observações */
+/* Observações 
 .modal-content .container.mt-3.mb-3{
 	position:sticky;
 	bottom:80px;
@@ -51,7 +51,7 @@
 	height:auto;
 	margin-top:20px;
 }
-
+*/
 /*Itens do Cardapio*/
 .modal-content .d-flex.small{
 	padding-left: 20px;
@@ -100,6 +100,6 @@ textarea:focus {
 /*----------------[ GAMA DELIVERY ]--------------------*/
 
 html, body {
-	overflow-x: hidden;
+	overflow-x: hidden !important;
   }
    
