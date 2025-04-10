@@ -121,5 +121,5 @@ html, body {
 .text-light.ml-2:before{
     content:'\f05a';
     margin-right:5px;
-    font-family:fontawesome;
+    font-family:Font Awesome 5 Pro;
 }
