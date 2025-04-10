@@ -104,3 +104,19 @@ html, body {
 	position:;
   }
    
+/* botão de link */
+.text-light.ml-2{
+    text-decoration:none !important;
+    background:white;
+    border:1px solid #dee2e6;
+    border-radius:12px;
+    padding:5px 20px;
+    display:block;
+    text-align:center;
+    margin-left:-20px !important;
+}
+.text-light.ml-2:before{
+    content:'\f05a';
+    margin-right:5px;
+    font-family:fontawesome;
+}
