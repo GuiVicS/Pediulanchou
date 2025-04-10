@@ -25,6 +25,83 @@ html, body {
     font-family:Fontawesome;
 }
 
+/* POPUP ESTILIZAÇÃO */
+.modal-content{
+    background:white;
+}
+.modal-header{
+    background:white;
+    padding-bottom:20px !important;
+
+}
+/*botão de X*/
+.close {
+    border-radius:50%;
+    border:1px solid #f4f5f7 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px !important;
+    width:50px;
+    height:50px;
+    margin-top: -8px !important;
+    margin-right: 0px !important;
+}
+.modal-body{
+    margin-bottom:20px;
+    background:#f4f5f7;
+    box-shadow: 
+    inset 0 8px 10px -10px rgba(0, 0, 0, 0.1), /* Topo */
+    inset 0 -8px 10px -10px rgba(0, 0, 0, 0.1); /* Fundo */
+}
+/* item do pedido */
+#carrinho-Body > div{
+    background:white !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius:15px;
+    margin-block:10px;
+    border:0px !important;
+}
+/*preço*/
+#carrinho-Body > div .col-3.text-right{
+    font-weight:bold;
+    color:#202020 !important;
+}
+
+#carrinho-Body .text-danger{
+    background:#202020;
+    color:white !important;
+    font-weight:bold;
+}
+#carrinho-Body .text-danger::before{
+    content:'\f1f8';
+    font-family:Fontawesome;
+    margin-right:5px;
+}
+
+/*editar btn*/
+#carrinho-Body .text-dark.mt-3{
+    background:#0084cc;
+    color:white !important;
+    font-weight:bold;
+}
+#carrinho-Body .text-dark.mt-3::before{
+    content:'\f044';
+    font-weight: regular !important;
+    font-family:Fontawesome;
+    margin-right:5px;
+}
+/*estilos que ambos os botões tem simutaneamente*/
+#carrinho-Body .text-dark.mt-3,#carrinho-Body .text-danger{
+    padding:7px 20px;
+    border-radius: 12px;
+    display:inline-flex;
+    text-align:center;
+    width:fit-content;
+    
+}
+
 /*popup comportamento*/
 @media(max-width:650px){
 .modal-content{
@@ -32,6 +109,7 @@ html, body {
 	width:100%;
 	height:100%;
 }
+/* FIM GAMA */
 }
 /* footer finalizar do produto
 .modal-content .d-flex.flex-row{
