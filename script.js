@@ -1,0 +1,18 @@
+// botão de home
+document.addEventListener("DOMContentLoaded", function () {
+    const menuBottom = document.querySelector(".fixed-bottom");
+
+    if (menuBottom) {
+      const homeButton = document.createElement("div");
+      homeButton.className = "flex-fill text-center"; // ou "col text-center"
+
+      homeButton.innerHTML = `
+        <a href="/" class="text-light">
+          <p class="h6 my-0"><span class="fa fa-home"></span></p>
+          Home
+        </a>
+      `;
+
+      menuBottom.insertBefore(homeButton, menuBottom.firstChild);
+    }
+  });
