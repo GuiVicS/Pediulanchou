@@ -1,3 +1,30 @@
+/*----------------[ GAMA DELIVERY ]--------------------*/
+/* ICONES FONTAWESOME */
+@import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css');
+/**/
+
+html, body {
+	overflow-x: hidden !important;
+	position:;
+  }
+   
+/* botão de link */
+.text-light.ml-2{
+    text-decoration:none !important;
+    background:white;
+    border:1px solid #dee2e6;
+    border-radius:12px;
+    padding:5px 20px;
+    display:block;
+    text-align:center;
+    margin-left:-20px !important;
+}
+.text-light.ml-2:before{
+    content:'\f05a';
+    margin-right:5px;
+    font-family:Fontawesome;
+}
+
 /*popup comportamento*/
 @media(max-width:650px){
 .modal-content{
@@ -96,30 +123,4 @@ textarea:focus {
 .opcaoProduto-Body > div {
     /* Estilos aplicados apenas aos filhos diretos */
     min-height:100vh;
-}
-/*----------------[ GAMA DELIVERY ]--------------------*/
-/* ICONES FONTAWESOME */
-@import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css');
-/**/
-
-html, body {
-	overflow-x: hidden !important;
-	position:;
-  }
-   
-/* botão de link */
-.text-light.ml-2{
-    text-decoration:none !important;
-    background:white;
-    border:1px solid #dee2e6;
-    border-radius:12px;
-    padding:5px 20px;
-    display:block;
-    text-align:center;
-    margin-left:-20px !important;
-}
-.text-light.ml-2:before{
-    content:'\f05a';
-    margin-right:5px;
-    font-family:Fontawesome;
 }
