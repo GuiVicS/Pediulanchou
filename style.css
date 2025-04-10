@@ -6,7 +6,7 @@
 	height:100%;
 }
 }
-/* footer finalizar do produto */
+/* footer finalizar do produto
 .modal-content .d-flex.flex-row{
 	position:sticky;
 	padding:5px;
@@ -14,7 +14,7 @@
 	bottom:0px;
 	z-index:999;
 }
-
+ */
 
 .modal-content{
 	padding-inline:1px;
@@ -101,5 +101,6 @@ textarea:focus {
 
 html, body {
 	overflow-x: hidden !important;
+	position:;
   }
    
