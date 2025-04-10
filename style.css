@@ -97,3 +97,9 @@ textarea:focus {
     /* Estilos aplicados apenas aos filhos diretos */
     min-height:100vh;
 }
+/*----------------[ GAMA DELIVERY ]--------------------*/
+
+html, body {
+	overflow-x: hidden;
+  }
+  
