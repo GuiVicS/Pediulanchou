@@ -98,6 +98,9 @@ textarea:focus {
     min-height:100vh;
 }
 /*----------------[ GAMA DELIVERY ]--------------------*/
+/* ICONES FONTAWESOME */
+@import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css');
+/**/
 
 html, body {
 	overflow-x: hidden !important;
