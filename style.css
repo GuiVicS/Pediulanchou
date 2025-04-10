@@ -96,7 +96,7 @@ html, body {
 #carrinho-Body .text-dark.mt-3,#carrinho-Body .text-danger{
     padding:7px 20px;
     border-radius: 12px;
-    display:inline-flex;
+    display:inline-flex !important;
     text-align:center;
     width:fit-content;
     
