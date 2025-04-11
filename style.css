@@ -298,3 +298,15 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
     border-radius:12px;
     padding:10px;
 }
+/* CARREGAMENTO PERSONALIZADO */
+#loader-bg{
+    opacity: 1;
+    background:white !important;
+    background-image: url("https://raw.githubusercontent.com/GuiVicS/Pizzaria-do-Gaucho/refs/heads/main/gaucho-loading.gif") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 100px !important;
+}
+#loader{
+    opacity: 0 !important;
+}
