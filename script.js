@@ -15,4 +15,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
       menuBottom.insertBefore(homeButton, menuBottom.firstChild);
     }
-  });
+  }); 
