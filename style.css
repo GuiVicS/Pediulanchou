@@ -203,7 +203,7 @@ textarea:focus {
     min-height:100vh;
 }
 
-.@media(max-width:480px){
+@media(max-width:480px){
 .bg-cor-primaria.d-flex.justify-content-center.cpointer.fixed-bottom.text-light.py-2.border-top{
     display:none !important;
 }
