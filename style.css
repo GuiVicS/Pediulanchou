@@ -310,3 +310,15 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
 #loader{
     opacity: 0 !important;
 }
+
+/* BOTÃO DE ABERTO OU FECHADO  */
+/* TEXTO DE ABERTO OU FECHADO */
+button[onclick="getInfosEstabelecimento();"]{
+    font-size:0px;
+    margin-left:13px;
+    padding-block:2px;
+}
+.btn.btn-sm.btn-success::after{
+    font-size:12px;
+    content:'ABERTO';
+}
