@@ -1,6 +1,10 @@
 /*----------------[ GAMA DELIVERY ]--------------------*/
 /* ICONES FONTAWESOME */
 @import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css');
+
+/* Importando a fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 /**/
 
 html, body {
@@ -55,7 +59,7 @@ html, body {
     inset 0 8px 10px -10px rgba(0, 0, 0, 0.1), /* Topo */
     inset 0 -8px 10px -10px rgba(0, 0, 0, 0.1); /* Fundo */
 }
-/* item do pedido */
+/* item do pedido  carrinho */
 #carrinho-Body > div{
     background:white !important;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -63,17 +67,27 @@ html, body {
     margin-block:10px;
     border:0px !important;
 }
-/*preço*/
+/* nome, detalhes de cada card  carrinho*/ 
+#carrinho-Body > div .col-9{
+    flex: 0 0 100% !important;
+    width:100%;
+    max-width:100% !important;
+
+}
+/*preço dos card carrinho*/
 #carrinho-Body > div .col-3.text-right{
     font-weight:bold;
     color:#202020 !important;
+	position:absolute;
+    right:20px;
 }
-
+/* botyão de delete do carrinho */
 #carrinho-Body .text-danger{
     background:#202020;
     color:white !important;
     font-weight:bold;
 }
+/* icone de liceira adicional do botão de delete  */
 #carrinho-Body .text-danger::before{
     content:'\f1f8';
     font-family:Fontawesome;
@@ -277,3 +291,13 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
 		padding:0px !important;
 	}
 	}
+
+/* Aplicando Montserrat globalmente */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Excluindo os ícones FontAwesome */
+[class*="fa"], [class^="fa"] {
+  font-family: 'Fontawesome' !important;
+}
