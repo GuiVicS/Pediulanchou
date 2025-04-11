@@ -10,6 +10,7 @@
 html, body {
 	overflow-x: hidden !important;
 	position:;
+	font-family: 'Montserrat', sans-serif !important;
   }
    
 /* botão de link */
@@ -292,12 +293,8 @@ div[onclick="carregarCarrinho();"] .fa-shopping-cart {
 	}
 	}
 
-/* Aplicando Montserrat globalmente */
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* Excluindo os ícones FontAwesome */
-[class*="fa"], [class^="fa"] {
-  font-family: 'Fontawesome' !important;
+.btn.bg-cor-primaria {
+    font-weight:bold;
+    border-radius:12px;
+    padding:10px;
 }
