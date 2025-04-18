@@ -13,6 +13,20 @@ html, body {
 	font-family: 'Montserrat', sans-serif !important;
   }
    
+  /* AVALIAÇÕES */
+  .fundo-inicio-fechado .my-0.py-0{
+    font-size:0px;
+    margin-top:-10px !important;
+}
+
+.fundo-inicio-aberto .my-0.py-0::before,.fundo-inicio-fechado .my-0.py-0::before{
+    color:#ffc400;
+    content:'\e28b \e28b \e28b \e28b \e28b';
+    font-family: Fontawesome;
+    font-size: 15px;
+}
+
+
 /* botão de link */
 .text-light.ml-2{
     font-size:0px;
@@ -24,7 +38,7 @@ html, body {
     margin-right:5px;
     font-family:Fontawesome;
 }
-text-light.ml-2::after{
+.text-light.ml-2::after{
     font-size:12px;
     content:'Ver mais';
     margin-right:5px;
