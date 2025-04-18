@@ -15,19 +15,17 @@ html, body {
    
 /* botão de link */
 .text-light.ml-2{
-    text-decoration:none !important;
-    background:white;
-    border:1px solid #dee2e6;
-    border-radius:12px;
-    padding:5px 20px;
-    display:block;
-    text-align:center;
-    margin-left:-20px !important;
+    font-size:0px;
+    color:transparent !important;
 }
 .text-light.ml-2:before{
     content:'\f05a';
     margin-right:5px;
     font-family:Fontawesome;
+}
+text-light.ml-2::after{
+    content:'Ver mais';
+    margin-right:5px;
 }
 
 /* POPUP ESTILIZAÇÃO */
