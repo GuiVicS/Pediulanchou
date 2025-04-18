@@ -29,17 +29,18 @@ html, body {
 
 /* botão de link */
 .text-light.ml-2{
+    
     font-size:0px;
     color:transparent !important;
 }
 .text-light.ml-2:before{
-    font-size:12px;
+    font-size:15px;
     content:'\f05a';
     margin-right:5px;
     font-family:Fontawesome;
 }
 .text-light.ml-2::after{
-    font-size:12px;
+    font-size:15px;
     content:'Ver mais';
     margin-right:5px;
 }
