@@ -29,7 +29,7 @@ html, body {
 
 /* botão de link */
 .text-light.ml-2{
-    
+    background: transparent !important;
     font-size:0px;
     color:transparent !important;
 }
