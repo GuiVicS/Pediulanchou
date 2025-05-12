@@ -237,6 +237,7 @@ textarea:focus {
 .bg-cor-primaria.d-flex.justify-content-center.cpointer.fixed-bottom.text-light.py-2.border-top{
     display:none !important;
 }*/
+/*
 div[onclick="carregarCarrinho();"] p{
     background:#f33829;
     height:70px;
@@ -248,7 +249,7 @@ div[onclick="carregarCarrinho();"] p{
     justify-content: center;
     align-items:center;
     padding:0px !important;
-}
+}*/
 .badge-danger{
     position:absolute;
     margin-left:40px;
@@ -256,14 +257,14 @@ div[onclick="carregarCarrinho();"] p{
     background:none !important;
     height:fit-content !important;
 }
-div[onclick="carregarCarrinho();"] p::before{
+/*div[onclick="carregarCarrinho();"] p::before{
     content:'\f290';
     font-weight:regular;
     font-family:fontawesome;
     font-size:30px;
-}
+}*/
 div[onclick="carregarCarrinho();"] .fa-shopping-cart {
- /*   display:none !important;
+ /*  display:none !important;*/
 }
 }
 /* BOTÃO DE CARRINHO EM DESTAQUE 
