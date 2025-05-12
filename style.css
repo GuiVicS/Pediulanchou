@@ -18,14 +18,14 @@ html, body {
     font-size:0px;
     margin-top:-10px !important;
 }
-
+/*
 .fundo-inicio-aberto .my-0.py-0::before,.fundo-inicio-fechado .my-0.py-0::before{
     color:#ffc400;
     content:'\e28b \e28b \e28b \e28b \e28b';
     font-family: Fontawesome;
     font-size: 15px;
 }
-
+*/
 
 /* botão de link */
 .text-light.ml-2{
@@ -232,11 +232,11 @@ textarea:focus {
     /* Estilos aplicados apenas aos filhos diretos */
     min-height:100vh;
 }
-
+/*
 @media(max-width:480px){
 .bg-cor-primaria.d-flex.justify-content-center.cpointer.fixed-bottom.text-light.py-2.border-top{
     display:none !important;
-}
+}*/
 div[onclick="carregarCarrinho();"] p{
     background:#f33829;
     height:70px;
