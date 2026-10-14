@@ -1188,5 +1188,60 @@ document.getElementById('productModal').addEventListener('click', function(e) {
 // ===================== INIT =====================
 renderHome();
 </script>
+ <script>
+(() => {
+  const IMG   = 'https://i.ibb.co/ZzyPnXhz/m-o.png';
+  const SIZE  = 48;            // largura do cursor (px)
+  const HOT_X = 0.5, HOT_Y = 0; // ponta do dedo na imagem (0 a 1)
+  const MAX_TILT = 10, PRESS = 0.88, HOVER = 1.08;
+
+  if (matchMedia('(hover: none)').matches) return; // ignora telas de toque
+
+  const style = document.createElement('style');
+  style.textContent = `
+    * { cursor: none !important; }
+    #custom-cursor {
+      position: fixed; top: 0; left: 0; width: ${SIZE}px; height: auto;
+      pointer-events: none; z-index: 2147483647; user-select: none;
+      translate: -200px -200px; rotate: 0deg; scale: 1;
+      transform-origin: ${HOT_X * 100}% ${HOT_Y * 100}%;
+      will-change: translate, rotate, scale;
+      transition: rotate .25s cubic-bezier(.2,.8,.2,1),
+                  scale .18s cubic-bezier(.2,.8,.2,1),
+                  opacity .2s ease;
+    }
+    @media (prefers-reduced-motion: reduce) { #custom-cursor { transition: none; } }
+  `;
+  document.head.appendChild(style);
+
+  const c = document.createElement('img');
+  c.id = 'custom-cursor';
+  c.src = IMG;
+  c.alt = '';
+  c.draggable = false;
+  document.body.appendChild(c);
+
+  let lastX = 0, pressed = false, hovering = false, t;
+  const setScale = () => c.style.scale = pressed ? PRESS : hovering ? HOVER : 1;
+
+  document.addEventListener('mousemove', e => {
+    c.style.translate =
+      `${e.clientX - c.offsetWidth * HOT_X}px ${e.clientY - c.offsetHeight * HOT_Y}px`;
+    c.style.opacity = 1;
+
+    const vx = e.clientX - lastX; lastX = e.clientX;
+    c.style.rotate = Math.max(-MAX_TILT, Math.min(MAX_TILT, vx * 0.6)) + 'deg';
+    clearTimeout(t);
+    t = setTimeout(() => c.style.rotate = '0deg', 80);
+
+    hovering = !!e.target.closest('a, button, [role="button"], input, select, textarea, label');
+    setScale();
+  });
+
+  document.addEventListener('mousedown', () => { pressed = true;  setScale(); });
+  document.addEventListener('mouseup',   () => { pressed = false; setScale(); });
+  document.documentElement.addEventListener('mouseleave', () => c.style.opacity = 0);
+})();
+</script>
 </body>
 </html>
